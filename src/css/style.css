@@ -133,3 +133,15 @@
 .catalog-item__back { position: absolute; bottom: 0; left: 50%; transform: translateX(calc(-50% - 19px)); display: block; color: #c70101; font-size: 14px; font-weight: 500; text-decoration: underline; text-transform: uppercase; }
 
 .catalog-item__back:hover { color: #c70101; }
+
+.reviews .title { padding-bottom: 60px; }
+
+.reviews-item { position: relative; padding-left: 230px; margin-bottom: 60px; }
+
+.reviews-item__img { position: absolute; width: 169px; height: 169px; left: 0; }
+
+.reviews-item__header { color: #0D0D0D; font-weight: 700; font-size: 18px; }
+
+.reviews-item__subheader { color: #646464; font-weight: 300; font-size: 13px; }
+
+.reviews-item__descr { margin-top: 10px; width: 680px; font-weight: 300; font-size: 17px; line-height: 24px; color: #0D0D0D; }

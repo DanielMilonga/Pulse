@@ -78,6 +78,8 @@
 
 .feed-form input:nth-child(3) { margin-bottom: 20px; }
 
+.feed-form_mt25 { margin-top: 25px; }
+
 .carousel { padding: 81px 0; }
 
 .carousel__inner { position: relative; width: 750px; margin: 0 auto; }
@@ -175,3 +177,17 @@
 .footer__social-item:hover { box-shadow: 0 0 25px #fff; transform: rotate(360deg); }
 
 .footer__social { display: flex; justify-content: center; align-items: center; }
+
+.overlay { display: none; position: fixed; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.56); }
+
+.modal { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 380px; min-height: 400px; background-color: #f2f2f2; padding: 38px 40px 40px 40px; }
+
+.modal__close { position: absolute; top: 0; right: -40px; font-size: 41px; color: #c70101; line-height: 21px; cursor: pointer; }
+
+.modal__subtitle { color: #0d0d0d; font-size: 18px; font-weight: 700; text-align: center; }
+
+.modal__descr { color: #0d0d0d; font-size: 14px; font-weight: 500; text-align: center; }
+
+.modal_mini { min-height: 140px; }
+
+#consultation, #order, #thanks { display: none; }
